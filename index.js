@@ -18,5 +18,6 @@ function addNewElementAsLi(){
 }
 
 function addNewLiOnClick(){
-  return document.getElementsByName("name")[0].value
+  let name = retrieveEmployeeInformation()
+  return document.querySelector('.employee-list').append(`<li>${name}</li>`)
 }
