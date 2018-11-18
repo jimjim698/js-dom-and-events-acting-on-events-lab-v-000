@@ -15,4 +15,7 @@ function addNewElementAsLi(){
   return document.querySelector('.employee-list').append(`<li>${name}</li>`)
 }
 
-
+function addNewElementAsLi() {
+  let name = retrieveEmployeeInformation()
+  return document.querySelector('.employee-list').append(`<li>${name}</li>`)
+}
