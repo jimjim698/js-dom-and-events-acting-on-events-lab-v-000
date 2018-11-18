@@ -18,5 +18,5 @@ function addNewElementAsLi(){
 }
 
 function addNewLiOnClick(){
-  
+  return document.getElementsByName("name")[0].value
 }
