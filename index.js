@@ -24,4 +24,3 @@ function addNewLiOnClick(){
   return complete
 }
 
-function retrieveEmployeeInformation
