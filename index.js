@@ -24,4 +24,6 @@ function addNewLiOnClick(){
   return complete
 }
 
-functio 
+function clearEmployeeListOnLinkClick(){
+  
+}
