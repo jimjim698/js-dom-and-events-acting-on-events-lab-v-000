@@ -12,7 +12,7 @@ function retrieveEmployeeInformation(){
 
 function addNewElementAsLi(){
   let name = retrieveEmployeeInformation
-  $('.employee-list')
+  $(".employee-list ul").append(`<li>${name}</li>`)
 }
 
 $("#header ul").append('<li><a href="/user/messages"><span class="tab">Message Center</span></a></li>');
