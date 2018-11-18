@@ -10,7 +10,7 @@ function retrieveEmployeeInformation(){
   return document.getElementsByName("name")[0].value
 }
 
-function addNewElementAsLi(){
+function addNewElementAsLi($){
   let name = retrieveEmployeeInformation
   $(".employee-list ul").append(`<li>${name}</li>`)
 }
