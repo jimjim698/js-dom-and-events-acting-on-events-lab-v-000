@@ -23,3 +23,5 @@ function addNewLiOnClick(){
   input.value = ""
   return complete
 }
+
+function retrieveEmployeeInformation
