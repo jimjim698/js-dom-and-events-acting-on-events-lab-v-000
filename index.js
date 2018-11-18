@@ -12,7 +12,7 @@ function retrieveEmployeeInformation(){
 
 function addNewElementAsLi(){
   let name = retrieveEmployeeInformation
-  $(".employee-list ul").append(`<li>${name}</li>`)
+  return document.(".employee-list ul").append(`<li>${name}</li>`)
 }
 
 
