@@ -17,6 +17,6 @@ function addNewElementAsLi(){
   return document.querySelector('.employee-list').append(`<li>${name}</li>`)
 }
 
-function addNewLiClick(){
+function addNewLiOnClick(){
   
 }
