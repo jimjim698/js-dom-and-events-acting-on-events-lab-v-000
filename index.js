@@ -9,3 +9,7 @@ preventRefreshOnSubmit()
 function retrieveEmployeeInformation(){
   return document.getElementsByName("name")[0].value
 }
+
+function addNewElementAsLi(){
+  
+}
